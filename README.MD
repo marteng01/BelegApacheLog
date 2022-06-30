@@ -3,6 +3,15 @@
 
 Lorem ipsum
 
+## Notizen
+
+### Reguläre Ausdrücke
+
+Zeile mit einem Http-Statuscode nicht 2**:
+`^.*?".*?"\s[^2][0-9]{2}\s`
+
+Zeile mit einem Fehlercode (Http-Statuscode 4**):
+`^.*?".*?"\s[4][0-9]{2}\s`
 
 ## Quelle der Beispieldatei:
 
